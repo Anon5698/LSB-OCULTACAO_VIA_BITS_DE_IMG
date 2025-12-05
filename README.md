@@ -1,5 +1,5 @@
-# esteganografia_octave
-steganography LSB Octave
+# Esteganografia_octave
+Steganography LSB Octave
 
 # These are steganography scritps using LSB (least significant bit). 
 
@@ -13,5 +13,4 @@ steganography LSB Octave
   5º Run the 'decodificar.m' script
   6º Choose the image that was created by 'stego.m'
   7º The hidden message will put in the pop-up message and the comand windows of Octave.
-  
-  Youtube (Portuguese): https://www.youtube.com/watch?v=HKgwRyjszFE&t=34s&ab_channel=ViniciusEspinosa
+
