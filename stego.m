@@ -1,31 +1,21 @@
 #***   Simples script de esteganografia ***
 #***   Objetivo: Esconder mensagem na imagem ***
 
-#*** Fernando Dias Motta - 180016 ***#
-#*** Francisco Godinho Neto - 180141 ***#
-#*** Geazi Antunes da Cruz - 180683 ***#
-#*** Guilherme Hoffmann Carmassi - 180831 ***#
-#*** Michel Micheloti - 181003 ***#
-#*** Paola Rodrigues Lopes - 180115 ***#
-#*** Pedro Mendonca Vitro - 180122 ***#
-#*** Vinicius Espinosa de Oliveira - 180853 ***#
-#*** Vinicius Cavalcante Silva Souza - 180854 ***#
-
 #Main function to proof the concept
 function [resultado] = stego()
   
-  # Recupera o nome da imagem que o usuário escolheu
+  # Recupera o nome da imagem que o usuÃ¡rio escolheu
   nomeImagemOriginal = abreMenuImagens();
   
-  # Carrega a imagem que o usuário escolheu
+  # Carrega a imagem que o usuÃ¡rio escolheu
   imagemOriginal = imread(nomeImagemOriginal);
   
-  # Mostrar imagem escolhida pelo usuário
+  # Mostrar imagem escolhida pelo usuÃ¡rio
   subplot(2,1,1);
   imshow(imagemOriginal);
   subplot(2,1,2);
   
-  # Recupera o texto que o usuário digitou para ser escondido
+  # Recupera o texto que o usuÃ¡rio digitou para ser escondido
   textoEscondido = recuperarTextoPeloUsuario('Esteganografia', 'Escreva a mensagem que deseja esconder', 
   'Frase sem acento max 35 caracteres');
   
