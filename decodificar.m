@@ -1,16 +1,6 @@
 #***   Simples script de esteganografia ***
 #***   Objetivo: Encontrar e recuperar mensagem na imagem ***
 
-#*** Fernando Dias Motta - 180016 ***#
-#*** Francisco Godinho Neto - 180141 ***#
-#*** Geazi Antunes da Cruz - 180683 ***#
-#*** Guilherme Hoffmann Carmassi - 180831 ***#
-#*** Michel Micheloti - 181003 ***#
-#*** Paola Rodrigues Lopes - 180115 ***#
-#*** Pedro Mendonca Vitro - 180122 ***#
-#*** Vinicius Espinosa de Oliveira - 180853 ***#
-#*** Vinicius Cavalcante Silva Souza - 180854 ***#
-
 #Main function to proof the concept
 function [resultado] = decodificar()
   
